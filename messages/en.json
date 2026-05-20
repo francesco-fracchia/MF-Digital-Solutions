@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "[STUDIO NAME] — Web design and development studio",
+    "description": "Freelance web design and development studio. We design and build bespoke websites and digital products, from idea to deploy."
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "menu": "Menu",
+    "close": "Close",
+    "switchLanguage": "Switch language"
+  },
+  "nav": {
+    "work": "Work",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Web design and development studio",
+    "titleLine1": "We build websites",
+    "titleLine2": "that do their job.",
+    "subtitle": "We work with a few companies at a time. From the first line of code to launch day, and beyond.",
+    "ctaPrimary": "See the work",
+    "ctaSecondary": "Get in touch",
+    "marquee": [
+      "Design",
+      "Development",
+      "E-commerce",
+      "Web apps",
+      "Performance",
+      "Accessibility"
+    ]
+  },
+  "services": {
+    "sectionLabel": "Services",
+    "title": "What we do",
+    "intro": "Four areas. The same method for each.",
+    "deliverablesLabel": "What you get",
+    "items": [
+      {
+        "title": "Showcase sites & landing pages",
+        "body": "Sites that say one thing and say it well. Clear structure, considered content, low load times.",
+        "deliverables": ["Design and copy", "Front-end build", "CMS", "Analytics"]
+      },
+      {
+        "title": "Headless e-commerce",
+        "body": "Stores built on a headless architecture. Catalogue, checkout and shipping that hold up as you grow.",
+        "deliverables": ["Bespoke storefront", "Checkout", "Order management", "Payments"]
+      },
+      {
+        "title": "Custom web apps",
+        "body": "Applications for internal processes or customer-facing products. From first version to maintenance.",
+        "deliverables": ["Architecture", "Front-end and API", "Design system", "Deploy"]
+      },
+      {
+        "title": "Technical consulting & audit",
+        "body": "A review of performance, accessibility and existing code. A clear direction without rebuilding everything.",
+        "deliverables": ["Technical audit", "Roadmap", "Team support"]
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionLabel": "Work",
+    "title": "Recent projects",
+    "intro": "Three clients, three sectors. The same way of working.",
+    "indexLabel": "Project",
+    "labels": {
+      "client": "Client",
+      "sector": "Sector",
+      "year": "Year",
+      "scope": "Scope"
+    }
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "title": "Let's talk about the project.",
+    "body": "Tell us what you need and when. We reply within two business days.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Full name",
+      "email": "Email",
+      "emailPlaceholder": "name@company.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "What it's about",
+      "message": "Message",
+      "messagePlaceholder": "A couple of lines about the project",
+      "send": "Send message",
+      "sending": "Sending…"
+    },
+    "successTitle": "Message received.",
+    "successBody": "Thanks. We'll get back to you shortly at the address you gave us.",
+    "reset": "Send another message",
+    "directLabel": "Or email us",
+    "email": "ciao@studio.example",
+    "infoLabel": "In short",
+    "location": "Milan, Italy",
+    "mode": "Remote, by appointment",
+    "availability": "Available for new projects from September 2026"
+  },
+  "footer": {
+    "tagline": "Web design and development studio.",
+    "rights": "All rights reserved.",
+    "vat": "VAT IT00000000000",
+    "socialLabel": "Social",
+    "backToTop": "Back to top"
+  },
+  "notFound": {
+    "title": "This page doesn't exist.",
+    "body": "The link may be old or wrong. Head back to the home page and start from there.",
+    "home": "Back to home"
+  }
+}

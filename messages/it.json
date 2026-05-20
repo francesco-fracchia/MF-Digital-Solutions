@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "[STUDIO NAME] — Studio di design e sviluppo web",
+    "description": "Studio freelance di design e sviluppo web. Progettiamo e realizziamo siti e prodotti digitali su misura, dall'idea al deploy."
+  },
+  "common": {
+    "skipToContent": "Vai al contenuto",
+    "menu": "Menu",
+    "close": "Chiudi",
+    "switchLanguage": "Cambia lingua"
+  },
+  "nav": {
+    "work": "Lavori",
+    "services": "Servizi",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "eyebrow": "Studio di design e sviluppo web",
+    "titleLine1": "Progettiamo siti",
+    "titleLine2": "che fanno il loro lavoro.",
+    "subtitle": "Lavoriamo con poche aziende per volta. Dalla prima riga di codice al giorno del lancio, e oltre.",
+    "ctaPrimary": "Vedi i lavori",
+    "ctaSecondary": "Scrivici",
+    "marquee": [
+      "Design",
+      "Sviluppo",
+      "E-commerce",
+      "Web app",
+      "Performance",
+      "Accessibilità"
+    ]
+  },
+  "services": {
+    "sectionLabel": "Servizi",
+    "title": "Quello che facciamo",
+    "intro": "Quattro ambiti. Lo stesso metodo per ciascuno.",
+    "deliverablesLabel": "Cosa consegniamo",
+    "items": [
+      {
+        "title": "Siti vetrina & landing page",
+        "body": "Siti che dicono una cosa e la dicono bene. Struttura chiara, contenuti curati, tempi di carico bassi.",
+        "deliverables": ["Design e copy", "Sviluppo front-end", "CMS", "Analytics"]
+      },
+      {
+        "title": "E-commerce headless",
+        "body": "Negozi costruiti su architettura headless. Catalogo, checkout e spedizioni che reggono la crescita.",
+        "deliverables": ["Vetrina su misura", "Checkout", "Gestionale ordini", "Pagamenti"]
+      },
+      {
+        "title": "Web app su misura",
+        "body": "Applicazioni per processi interni o prodotti rivolti ai clienti. Dalla prima versione alla manutenzione.",
+        "deliverables": ["Architettura", "Front-end e API", "Design system", "Deploy"]
+      },
+      {
+        "title": "Consulenza tecnica & audit",
+        "body": "Revisione di performance, accessibilità e codice esistente. Una direzione chiara senza rifare tutto da capo.",
+        "deliverables": ["Audit tecnico", "Roadmap", "Affiancamento al team"]
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionLabel": "Lavori",
+    "title": "Progetti recenti",
+    "intro": "Tre clienti, tre settori. Lo stesso modo di lavorare.",
+    "indexLabel": "Progetto",
+    "labels": {
+      "client": "Cliente",
+      "sector": "Settore",
+      "year": "Anno",
+      "scope": "Ambito"
+    }
+  },
+  "contact": {
+    "sectionLabel": "Contatti",
+    "title": "Parliamo del progetto.",
+    "body": "Raccontaci cosa ti serve e quando. Rispondiamo entro due giorni lavorativi.",
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "Nome e cognome",
+      "email": "Email",
+      "emailPlaceholder": "nome@azienda.com",
+      "subject": "Oggetto",
+      "subjectPlaceholder": "Di cosa si tratta",
+      "message": "Messaggio",
+      "messagePlaceholder": "Due righe sul progetto",
+      "send": "Invia messaggio",
+      "sending": "Invio…"
+    },
+    "successTitle": "Messaggio ricevuto.",
+    "successBody": "Grazie. Ti rispondiamo a breve all'indirizzo che hai indicato.",
+    "reset": "Invia un altro messaggio",
+    "directLabel": "Oppure scrivici",
+    "email": "ciao@studio.example",
+    "infoLabel": "In breve",
+    "location": "Milano, Italia",
+    "mode": "Da remoto, su appuntamento",
+    "availability": "Disponibili per nuovi progetti da settembre 2026"
+  },
+  "footer": {
+    "tagline": "Studio di design e sviluppo web.",
+    "rights": "Tutti i diritti riservati.",
+    "vat": "P.IVA IT00000000000",
+    "socialLabel": "Social",
+    "backToTop": "Torna su"
+  },
+  "notFound": {
+    "title": "Questa pagina non esiste.",
+    "body": "Il link potrebbe essere vecchio o sbagliato. Torna alla home e riparti da lì.",
+    "home": "Torna alla home"
+  }
+}
