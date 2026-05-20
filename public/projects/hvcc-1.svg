@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="HVCC — Trilingual structured content">
+  <rect width="1200" height="1500" fill="#fafaf7" />
+  <g stroke="#1e3a5f" stroke-opacity="0.85" stroke-width="3" stroke-linecap="round">
+    <line x1="160" y1="320" x2="360" y2="320" />
+    <line x1="160" y1="380" x2="360" y2="380" />
+    <line x1="160" y1="440" x2="300" y2="440" />
+
+    <line x1="500" y1="320" x2="700" y2="320" />
+    <line x1="500" y1="380" x2="700" y2="380" />
+    <line x1="500" y1="440" x2="640" y2="440" />
+
+    <line x1="840" y1="320" x2="1040" y2="320" />
+    <line x1="840" y1="380" x2="1040" y2="380" />
+    <line x1="840" y1="440" x2="980" y2="440" />
+  </g>
+  <g stroke="#1e3a5f" stroke-opacity="0.2" stroke-width="2">
+    <line x1="160" y1="620" x2="1040" y2="620" />
+    <line x1="160" y1="680" x2="1040" y2="680" />
+    <line x1="160" y1="740" x2="1040" y2="740" />
+    <line x1="160" y1="800" x2="900" y2="800" />
+    <line x1="160" y1="980" x2="1040" y2="980" />
+    <line x1="160" y1="1040" x2="1040" y2="1040" />
+    <line x1="160" y1="1100" x2="940" y2="1100" />
+  </g>
+  <g fill="#1e3a5f" fill-opacity="0.85">
+    <rect x="160" y="200" width="40" height="40" />
+    <rect x="500" y="200" width="40" height="40" />
+    <rect x="840" y="200" width="40" height="40" />
+  </g>
+</svg>

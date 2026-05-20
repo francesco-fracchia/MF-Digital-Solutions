@@ -5,6 +5,7 @@ import { hasLocale, NextIntlClientProvider, useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { SmoothScroll } from "@/components/smooth-scroll";
+import { STUDIO_NAME } from "@/lib/site";
 import "../globals.css";
 
 const inter = Inter({
@@ -27,6 +28,13 @@ export async function generateMetadata({
   return {
     title: t("title"),
     description: t("description"),
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      siteName: STUDIO_NAME,
+      type: "website",
+      locale: locale === "it" ? "it_IT" : "en_US",
+    },
   };
 }
 
@@ -55,9 +63,31 @@ export default async function LocaleLayout({
   }
   setRequestLocale(locale);
 
+  const t = await getTranslations({ locale, namespace: "meta" });
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    name: STUDIO_NAME,
+    description: t("description"),
+    areaServed: "IT",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Milano e Lodi",
+      addressCountry: "IT",
+    },
+    founder: [
+      { "@type": "Person", name: "Marco" },
+      { "@type": "Person", name: "Fra" },
+    ],
+  };
+
   return (
     <html lang={locale} className={inter.variable}>
       <body className="antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <NextIntlClientProvider>
           <SkipLink />
           <SmoothScroll>{children}</SmoothScroll>

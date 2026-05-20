@@ -15,6 +15,8 @@ export type Project = {
   year: number;
   /** One-line description. */
   description: Localized;
+  /** Live site hostname, e.g. "hvcc.it". Optional. */
+  url?: string;
   /** Cover image, served from /public. */
   cover: string;
   /** One or two supporting images, served from /public. */
@@ -33,60 +35,50 @@ export type Project = {
  */
 export const projects: Project[] = [
   {
-    slug: "lente-studio",
-    client: "Lente Studio",
+    slug: "hvcc",
+    client: "HVCC",
     title: {
-      it: "Vetrina e configuratore",
-      en: "Storefront and configurator",
+      it: "Sito istituzionale trilingue",
+      en: "Trilingual corporate site",
     },
-    sector: { it: "Occhiali", en: "Eyewear" },
-    year: 2025,
-    description: {
-      it: "Una vetrina sobria e un configuratore per provare montature e lenti prima dell'acquisto.",
-      en: "A restrained storefront and a configurator to try frames and lenses before buying.",
+    sector: {
+      it: "Engineering alta tensione",
+      en: "High-voltage engineering",
     },
-    cover: "/projects/lente-studio-cover.svg",
-    gallery: ["/projects/lente-studio-1.svg", "/projects/lente-studio-2.svg"],
-    tags: ["Design", "Next.js", "Shopify"],
-    accent: "#d85a30",
-  },
-  {
-    slug: "poggio-sereno",
-    client: "Poggio Sereno",
-    title: {
-      it: "Racconto e vendita diretta",
-      en: "Story and direct sales",
-    },
-    sector: { it: "Cantina vinicola", en: "Winery" },
     year: 2024,
     description: {
-      it: "Il racconto della tenuta toscana e la vendita diretta di ogni annata.",
-      en: "The story of the Tuscan estate and direct sales of every vintage.",
+      it: "Sito istituzionale trilingue per una società di consulenza di engineering ad alta tensione attiva in 36 paesi. Architettura editoriale, contenuti strutturati, performance e accessibilità prime di tutto.",
+      en: "Trilingual corporate site for a high-voltage engineering consultancy active in 36 countries. Editorial architecture, structured content, performance and accessibility first.",
     },
-    cover: "/projects/poggio-sereno-cover.svg",
-    gallery: [
-      "/projects/poggio-sereno-1.svg",
-      "/projects/poggio-sereno-2.svg",
-    ],
-    tags: ["Design", "Sanity", "E-commerce"],
-    accent: "#3e5a41",
+    url: "hvcc.it",
+    cover: "/projects/hvcc-cover.svg",
+    gallery: ["/projects/hvcc-1.svg", "/projects/hvcc-2.svg"],
+    tags: ["Design", "Next.js", "Trilingue IT/EN/ES", "MDX"],
+    accent: "#1e3a5f",
   },
   {
-    slug: "northbound",
-    client: "Northbound",
+    slug: "ff-phone-lab",
+    client: "FF Phone Lab",
     title: {
-      it: "Sito e documentazione",
-      en: "Marketing site and docs",
+      it: "Store Shopify con sync eBay",
+      en: "Shopify store with eBay sync",
     },
-    sector: { it: "Piattaforma SaaS B2B", en: "B2B SaaS platform" },
+    sector: {
+      it: "eCommerce smartphone",
+      en: "Smartphone eCommerce",
+    },
     year: 2025,
     description: {
-      it: "Il sito di prodotto e l'area documentazione per una piattaforma di logistica.",
-      en: "The product site and docs area for a logistics platform.",
+      it: "Store Shopify per la vendita di smartphone ricondizionati e ricambi, con sincronizzazione automatica del catalogo eBay tramite script Python e integrazione delle immagini. Estetica dark tech, sezioni custom in Liquid, schede prodotto ottimizzate per la conversione.",
+      en: "Shopify store for refurbished smartphones and spare parts, with automatic eBay catalogue sync via Python scripts and image integration. Dark-tech aesthetic, custom Liquid sections, product pages tuned for conversion.",
     },
-    cover: "/projects/northbound-cover.svg",
-    gallery: ["/projects/northbound-1.svg", "/projects/northbound-2.svg"],
-    tags: ["Web app", "Design system", "Docs"],
-    accent: "#3c4654",
+    url: "ffphonelab.it",
+    cover: "/projects/ff-phone-lab-cover.svg",
+    gallery: [
+      "/projects/ff-phone-lab-1.svg",
+      "/projects/ff-phone-lab-2.svg",
+    ],
+    tags: ["Shopify", "Liquid", "eBay Browse API", "Sync Python"],
+    accent: "#16181b",
   },
 ];

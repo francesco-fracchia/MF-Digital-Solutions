@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "[STUDIO NAME] — Studio di design e sviluppo web",
-    "description": "Studio freelance di design e sviluppo web. Progettiamo e realizziamo siti e prodotti digitali su misura, dall'idea al deploy."
+    "title": "MF Digital Solutions — Studio di sviluppo digitale",
+    "description": "Studio di sviluppo digitale a Milano e Lodi. Costruiamo siti, eCommerce e gestionali su misura. E gestiamo un eCommerce nostro."
   },
   "common": {
     "skipToContent": "Vai al contenuto",
@@ -15,65 +15,73 @@
     "contact": "Contatti"
   },
   "hero": {
-    "eyebrow": "Studio di design e sviluppo web",
-    "titleLine1": "Progettiamo siti",
-    "titleLine2": "che fanno il loro lavoro.",
-    "subtitle": "Lavoriamo con poche aziende per volta. Dalla prima riga di codice al giorno del lancio, e oltre.",
+    "eyebrow": "Studio di sviluppo digitale",
+    "titleLine1": "Sviluppiamo per i clienti.",
+    "titleLine2": "E gestiamo un eCommerce nostro.",
+    "subtitle": "Siti, eCommerce e gestionali su misura. Marco e Fra, da Milano e Lodi.",
     "ctaPrimary": "Vedi i lavori",
     "ctaSecondary": "Scrivici",
     "marquee": [
-      "Design",
-      "Sviluppo",
-      "E-commerce",
-      "Web app",
-      "Performance",
-      "Accessibilità"
+      "Siti",
+      "eCommerce",
+      "Gestionali",
+      "Shopify",
+      "Next.js",
+      "Integrazioni",
+      "Audit"
     ]
   },
   "services": {
     "sectionLabel": "Servizi",
     "title": "Quello che facciamo",
-    "intro": "Quattro ambiti. Lo stesso metodo per ciascuno.",
+    "intro": "Quattro cose che facciamo bene. Niente altro.",
     "deliverablesLabel": "Cosa consegniamo",
     "items": [
       {
         "title": "Siti vetrina & landing page",
-        "body": "Siti che dicono una cosa e la dicono bene. Struttura chiara, contenuti curati, tempi di carico bassi.",
-        "deliverables": ["Design e copy", "Sviluppo front-end", "CMS", "Analytics"]
+        "body": "Per chi deve farsi trovare e raccontarsi bene. Next.js o Astro, headless CMS quando serve.",
+        "deliverables": ["Design e copy", "Sviluppo", "SEO tecnica", "Performance"]
       },
       {
-        "title": "E-commerce headless",
-        "body": "Negozi costruiti su architettura headless. Catalogo, checkout e spedizioni che reggono la crescita.",
-        "deliverables": ["Vetrina su misura", "Checkout", "Gestionale ordini", "Pagamenti"]
+        "title": "eCommerce",
+        "body": "Negozi che vendono — non solo che esistono. Gestiamo FF Phone Lab su Shopify ed eBay.",
+        "deliverables": ["Shopify", "Theme custom", "Integrazioni", "Sync multicanale"]
       },
       {
-        "title": "Web app su misura",
-        "body": "Applicazioni per processi interni o prodotti rivolti ai clienti. Dalla prima versione alla manutenzione.",
-        "deliverables": ["Architettura", "Front-end e API", "Design system", "Deploy"]
+        "title": "Gestionali & web app su misura",
+        "body": "Il software interno che fa girare la vostra operatività. Ordini, magazzino, resi, scheduling.",
+        "deliverables": ["Next.js", "Firebase/Turso", "Dashboard", "Automazioni"]
       },
       {
-        "title": "Consulenza tecnica & audit",
-        "body": "Revisione di performance, accessibilità e codice esistente. Una direzione chiara senza rifare tutto da capo.",
-        "deliverables": ["Audit tecnico", "Roadmap", "Affiancamento al team"]
+        "title": "Consulenza & integrazioni",
+        "body": "Audit, scelte tecniche, integrazioni tra strumenti che già usate.",
+        "deliverables": ["Audit", "API", "Migrazioni", "Affiancamento"]
       }
     ]
   },
+  "about": {
+    "sectionLabel": "Chi siamo",
+    "title": "Operatori, non solo consulenti.",
+    "para1": "Siamo Marco e Fra, due sviluppatori. Base a Milano e Lodi. Costruiamo siti, eCommerce e gestionali su misura.",
+    "para2": "Gestiamo anche FF Phone Lab, il nostro eCommerce di smartphone. Sappiamo cosa serve per vendere online davvero. Per questo parliamo la lingua di chi lo fa ogni giorno."
+  },
   "portfolio": {
     "sectionLabel": "Lavori",
-    "title": "Progetti recenti",
-    "intro": "Tre clienti, tre settori. Lo stesso modo di lavorare.",
+    "title": "Lavori recenti",
+    "intro": "Due progetti, due mondi diversi. Stesso modo di lavorare.",
     "indexLabel": "Progetto",
     "labels": {
       "client": "Cliente",
       "sector": "Settore",
       "year": "Anno",
-      "scope": "Ambito"
+      "scope": "Ambito",
+      "visit": "Online"
     }
   },
   "contact": {
     "sectionLabel": "Contatti",
-    "title": "Parliamo del progetto.",
-    "body": "Raccontaci cosa ti serve e quando. Rispondiamo entro due giorni lavorativi.",
+    "title": "Raccontaci cosa serve.",
+    "body": "Due righe sul progetto e i tempi. Rispondiamo entro due giorni lavorativi.",
     "form": {
       "name": "Nome",
       "namePlaceholder": "Nome e cognome",
@@ -90,17 +98,16 @@
     "successBody": "Grazie. Ti rispondiamo a breve all'indirizzo che hai indicato.",
     "reset": "Invia un altro messaggio",
     "directLabel": "Oppure scrivici",
-    "email": "ciao@studio.example",
+    "email": "ciao@mfdigitalsolutions.it",
     "infoLabel": "In breve",
-    "location": "Milano, Italia",
-    "mode": "Da remoto, su appuntamento",
-    "availability": "Disponibili per nuovi progetti da settembre 2026"
+    "location": "Milano e Lodi, Italia",
+    "mode": "Da remoto, su appuntamento in zona",
+    "availability": "Disponibili per nuovi progetti su richiesta"
   },
   "footer": {
-    "tagline": "Studio di design e sviluppo web.",
+    "tagline": "Studio di sviluppo digitale · Marco & Fra",
     "rights": "Tutti i diritti riservati.",
-    "vat": "P.IVA IT00000000000",
-    "socialLabel": "Social",
+    "vat": "P.IVA IT[P.IVA da inserire]",
     "backToTop": "Torna su"
   },
   "notFound": {

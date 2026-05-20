@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "[STUDIO NAME] — Web design and development studio",
-    "description": "Freelance web design and development studio. We design and build bespoke websites and digital products, from idea to deploy."
+    "title": "MF Digital Solutions — Digital development studio",
+    "description": "Digital development studio in Milan and Lodi. We build custom sites, eCommerce and internal tools. And we run an eCommerce of our own."
   },
   "common": {
     "skipToContent": "Skip to content",
@@ -15,65 +15,73 @@
     "contact": "Contact"
   },
   "hero": {
-    "eyebrow": "Web design and development studio",
-    "titleLine1": "We build websites",
-    "titleLine2": "that do their job.",
-    "subtitle": "We work with a few companies at a time. From the first line of code to launch day, and beyond.",
+    "eyebrow": "Digital development studio",
+    "titleLine1": "We build for our clients.",
+    "titleLine2": "And run an eCommerce of our own.",
+    "subtitle": "Custom sites, eCommerce and internal tools. Marco and Fra, from Milan and Lodi.",
     "ctaPrimary": "See the work",
     "ctaSecondary": "Get in touch",
     "marquee": [
-      "Design",
-      "Development",
-      "E-commerce",
-      "Web apps",
-      "Performance",
-      "Accessibility"
+      "Sites",
+      "eCommerce",
+      "Internal tools",
+      "Shopify",
+      "Next.js",
+      "Integrations",
+      "Audit"
     ]
   },
   "services": {
     "sectionLabel": "Services",
     "title": "What we do",
-    "intro": "Four areas. The same method for each.",
+    "intro": "Four things we do well. Nothing else.",
     "deliverablesLabel": "What you get",
     "items": [
       {
         "title": "Showcase sites & landing pages",
-        "body": "Sites that say one thing and say it well. Clear structure, considered content, low load times.",
-        "deliverables": ["Design and copy", "Front-end build", "CMS", "Analytics"]
+        "body": "For those who need to be found and tell their story well. Next.js or Astro, headless CMS when needed.",
+        "deliverables": ["Design and copy", "Development", "Technical SEO", "Performance"]
       },
       {
-        "title": "Headless e-commerce",
-        "body": "Stores built on a headless architecture. Catalogue, checkout and shipping that hold up as you grow.",
-        "deliverables": ["Bespoke storefront", "Checkout", "Order management", "Payments"]
+        "title": "eCommerce",
+        "body": "Stores that sell — not just exist. We run FF Phone Lab on Shopify and eBay.",
+        "deliverables": ["Shopify", "Custom theme", "Integrations", "Multichannel sync"]
       },
       {
-        "title": "Custom web apps",
-        "body": "Applications for internal processes or customer-facing products. From first version to maintenance.",
-        "deliverables": ["Architecture", "Front-end and API", "Design system", "Deploy"]
+        "title": "Custom internal tools & web apps",
+        "body": "The internal software that runs your operations. Orders, inventory, returns, scheduling.",
+        "deliverables": ["Next.js", "Firebase/Turso", "Dashboards", "Automations"]
       },
       {
-        "title": "Technical consulting & audit",
-        "body": "A review of performance, accessibility and existing code. A clear direction without rebuilding everything.",
-        "deliverables": ["Technical audit", "Roadmap", "Team support"]
+        "title": "Consulting & integrations",
+        "body": "Audits, technical decisions, integrations between tools you already use.",
+        "deliverables": ["Audit", "API", "Migrations", "Support"]
       }
     ]
   },
+  "about": {
+    "sectionLabel": "About",
+    "title": "Operators, not just consultants.",
+    "para1": "We're Marco and Fra, two developers. Based in Milan and Lodi. We build custom sites, eCommerce and internal tools.",
+    "para2": "We also run FF Phone Lab, our own smartphone eCommerce. We know what selling online really takes. That's why we speak the language of people who do it daily."
+  },
   "portfolio": {
     "sectionLabel": "Work",
-    "title": "Recent projects",
-    "intro": "Three clients, three sectors. The same way of working.",
+    "title": "Recent work",
+    "intro": "Two projects, two different worlds. The same way of working.",
     "indexLabel": "Project",
     "labels": {
       "client": "Client",
       "sector": "Sector",
       "year": "Year",
-      "scope": "Scope"
+      "scope": "Scope",
+      "visit": "Live"
     }
   },
   "contact": {
     "sectionLabel": "Contact",
-    "title": "Let's talk about the project.",
-    "body": "Tell us what you need and when. We reply within two business days.",
+    "title": "Tell us what you need.",
+    "body": "A couple of lines about the project and timing. We reply within two business days.",
     "form": {
       "name": "Name",
       "namePlaceholder": "Full name",
@@ -90,17 +98,16 @@
     "successBody": "Thanks. We'll get back to you shortly at the address you gave us.",
     "reset": "Send another message",
     "directLabel": "Or email us",
-    "email": "ciao@studio.example",
+    "email": "ciao@mfdigitalsolutions.it",
     "infoLabel": "In short",
-    "location": "Milan, Italy",
-    "mode": "Remote, by appointment",
-    "availability": "Available for new projects from September 2026"
+    "location": "Milan and Lodi, Italy",
+    "mode": "Remote, on-site nearby by appointment",
+    "availability": "Available for new projects on request"
   },
   "footer": {
-    "tagline": "Web design and development studio.",
+    "tagline": "Digital development studio · Marco & Fra",
     "rights": "All rights reserved.",
-    "vat": "VAT IT00000000000",
-    "socialLabel": "Social",
+    "vat": "VAT IT[P.IVA da inserire]",
     "backToTop": "Back to top"
   },
   "notFound": {

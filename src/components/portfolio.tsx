@@ -51,6 +51,19 @@ export function Portfolio() {
                     {project.description[locale]}
                   </p>
 
+                  {project.url && (
+                    <a
+                      href={`https://${project.url}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link-underline mt-5 inline-flex items-center gap-1.5 text-[0.95rem] text-ink"
+                    >
+                      <span className="text-faint">{t("labels.visit")}</span>
+                      {project.url}
+                      <span aria-hidden>↗</span>
+                    </a>
+                  )}
+
                   <dl className="mt-9 grid grid-cols-2 gap-y-5 border-t border-line pt-7 text-[0.9rem]">
                     <div>
                       <dt className="text-faint">{t("labels.sector")}</dt>
