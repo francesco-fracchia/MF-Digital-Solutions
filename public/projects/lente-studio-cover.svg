@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Lente Studio">
+  <rect width="1600" height="1000" fill="#d85a30" />
+  <g fill="none" stroke="#fafaf7" stroke-width="3" stroke-opacity="0.55" stroke-linecap="round">
+    <circle cx="640" cy="500" r="150" />
+    <circle cx="960" cy="500" r="150" />
+    <line x1="790" y1="500" x2="810" y2="500" />
+    <line x1="490" y1="485" x2="380" y2="445" />
+    <line x1="1110" y1="485" x2="1220" y2="445" />
+  </g>
+</svg>

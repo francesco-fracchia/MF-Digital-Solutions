@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Northbound">
+  <rect width="1600" height="1000" fill="#3c4654" />
+  <g fill="none" stroke="#fafaf7" stroke-opacity="0.5" stroke-width="3">
+    <rect x="360" y="640" width="120" height="200" />
+    <rect x="600" y="520" width="120" height="320" />
+    <rect x="840" y="400" width="120" height="440" />
+    <rect x="1080" y="280" width="120" height="560" />
+  </g>
+</svg>

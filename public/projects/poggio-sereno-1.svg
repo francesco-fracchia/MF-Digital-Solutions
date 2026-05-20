@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="Poggio Sereno">
+  <rect width="1200" height="1500" fill="#fafaf7" />
+  <g fill="none" stroke="#3e5a41" stroke-width="3" stroke-opacity="0.85" stroke-linecap="round">
+    <line x1="470" y1="360" x2="730" y2="360" />
+    <path d="M470 360 Q600 620 730 360" />
+    <line x1="600" y1="500" x2="600" y2="980" />
+    <line x1="480" y1="980" x2="720" y2="980" />
+  </g>
+</svg>
