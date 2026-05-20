@@ -10,7 +10,6 @@ export function Hero() {
 
   const { scrollY } = useScroll();
   // Layered speeds give the parallax depth without feeling like a gimmick.
-  const yEyebrow = useTransform(scrollY, [0, 500], [0, -24]);
   const yTitle = useTransform(scrollY, [0, 500], [0, -56]);
   const ySub = useTransform(scrollY, [0, 500], [0, -96]);
   const yCta = useTransform(scrollY, [0, 500], [0, -120]);
@@ -43,17 +42,9 @@ export function Hero() {
           </svg>
         </motion.div>
 
-        <motion.p
-          style={{ y: m(yEyebrow), opacity: m(fade) }}
-          className="flex items-center gap-2.5 text-[0.85rem] text-muted"
-        >
-          <span className="inline-block h-1.5 w-1.5 rounded-full bg-accent" />
-          {t("eyebrow")}
-        </motion.p>
-
         <motion.h1
           style={{ y: m(yTitle), opacity: m(fade) }}
-          className="mt-7 max-w-[18ch] text-display font-medium text-balance"
+          className="max-w-[18ch] text-display font-medium text-balance"
         >
           {t("titleLine1")}
           <br />

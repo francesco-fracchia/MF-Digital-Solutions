@@ -51,7 +51,6 @@ export function Contact() {
               <dt className="text-faint">{t("infoLabel")}</dt>
               <dd className="text-ink">{t("location")}</dd>
               <dd className="text-ink">{t("mode")}</dd>
-              <dd className="text-ink">{t("availability")}</dd>
             </dl>
           </Reveal>
         </div>

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "MF Digital Solutions — Digital development studio",
-    "description": "Digital development studio in Milan and Lodi. We build custom sites, eCommerce and internal tools. And we run an eCommerce of our own."
+    "title": "MF Digital Solutions — Web development studio",
+    "description": "Web development studio. Custom websites, eCommerce and internal applications for businesses that need digital tools built properly."
   },
   "common": {
     "skipToContent": "Skip to content",
@@ -15,60 +15,57 @@
     "contact": "Contact"
   },
   "hero": {
-    "eyebrow": "Digital development studio",
-    "titleLine1": "We build for our clients.",
-    "titleLine2": "And run an eCommerce of our own.",
-    "subtitle": "Custom sites, eCommerce and internal tools. Marco and Fra, from Milan and Lodi.",
-    "ctaPrimary": "See the work",
-    "ctaSecondary": "Get in touch",
+    "titleLine1": "Custom web development",
+    "titleLine2": "and applications.",
+    "subtitle": "Sites, eCommerce and internal tools for businesses that need digital tools built properly.",
+    "ctaPrimary": "Selected work",
+    "ctaSecondary": "Contact",
     "marquee": [
       "Sites",
       "eCommerce",
       "Internal tools",
-      "Shopify",
       "Next.js",
-      "Integrations",
-      "Audit"
+      "Shopify",
+      "Performance",
+      "Accessibility",
+      "Internationalisation"
     ]
   },
   "services": {
     "sectionLabel": "Services",
     "title": "What we do",
-    "intro": "Four things we do well. Nothing else.",
-    "deliverablesLabel": "What you get",
     "items": [
       {
-        "title": "Showcase sites & landing pages",
-        "body": "For those who need to be found and tell their story well. Next.js or Astro, headless CMS when needed.",
-        "deliverables": ["Design and copy", "Development", "Technical SEO", "Performance"]
+        "title": "Showcase sites and landing pages",
+        "body": "Corporate sites and launch pages. Editorial architecture, structured content, optimised for organic search and performance.",
+        "deliverables": ["Next.js", "Astro", "Headless CMS", "Technical SEO"]
       },
       {
         "title": "eCommerce",
-        "body": "Stores that sell — not just exist. We run FF Phone Lab on Shopify and eBay.",
-        "deliverables": ["Shopify", "Custom theme", "Integrations", "Multichannel sync"]
+        "body": "Online stores built on Shopify or a headless architecture. Custom themes, multichannel integrations, catalogue management.",
+        "deliverables": ["Shopify", "Liquid", "Integrations", "Multichannel sync"]
       },
       {
-        "title": "Custom internal tools & web apps",
-        "body": "The internal software that runs your operations. Orders, inventory, returns, scheduling.",
-        "deliverables": ["Next.js", "Firebase/Turso", "Dashboards", "Automations"]
+        "title": "Internal tools and web apps",
+        "body": "Internal applications to manage orders, inventory, customers and operations. Dashboards, automations, roles.",
+        "deliverables": ["Next.js", "Firebase", "Turso", "Dashboard"]
       },
       {
-        "title": "Consulting & integrations",
-        "body": "Audits, technical decisions, integrations between tools you already use.",
-        "deliverables": ["Audit", "API", "Migrations", "Support"]
+        "title": "Technical consulting",
+        "body": "Code and performance audits, architecture decisions, integrations between existing systems. Support for in-house teams.",
+        "deliverables": ["Audit", "Architecture", "API", "Migrations"]
       }
     ]
   },
   "about": {
-    "sectionLabel": "About",
-    "title": "Operators, not just consultants.",
-    "para1": "We're Marco and Fra, two developers. Based in Milan and Lodi. We build custom sites, eCommerce and internal tools.",
-    "para2": "We also run FF Phone Lab, our own smartphone eCommerce. We know what selling online really takes. That's why we speak the language of people who do it daily."
+    "sectionLabel": "Studio",
+    "title": "A web development studio based in Milan.",
+    "para1": "MF Digital Solutions designs and develops custom websites, eCommerce and internal applications. Work starts from the client's requirements and the concrete constraints of each project.",
+    "para2": "Every project is built to measure, with attention to performance, accessibility and long-term maintainability. The technical stack is chosen to fit the project."
   },
   "portfolio": {
     "sectionLabel": "Work",
-    "title": "Recent work",
-    "intro": "Two projects, two different worlds. The same way of working.",
+    "title": "Selected work",
     "indexLabel": "Project",
     "labels": {
       "client": "Client",
@@ -80,8 +77,8 @@
   },
   "contact": {
     "sectionLabel": "Contact",
-    "title": "Tell us what you need.",
-    "body": "A couple of lines about the project and timing. We reply within two business days.",
+    "title": "Contact",
+    "body": "For quote requests or information. Average response time: two business days.",
     "form": {
       "name": "Name",
       "namePlaceholder": "Full name",
@@ -98,16 +95,16 @@
     "successBody": "Thanks. We'll get back to you shortly at the address you gave us.",
     "reset": "Send another message",
     "directLabel": "Or email us",
-    "email": "ciao@mfdigitalsolutions.it",
+    "email": "info@mfdigitalsolutions.it",
     "infoLabel": "In short",
-    "location": "Milan and Lodi, Italy",
-    "mode": "Remote, on-site nearby by appointment",
-    "availability": "Available for new projects on request"
+    "location": "Office: Milan, Italy",
+    "mode": "Remote, by appointment"
   },
   "footer": {
-    "tagline": "Digital development studio · Marco & Fra",
+    "tagline": "Web development studio",
     "rights": "All rights reserved.",
-    "vat": "VAT IT[P.IVA da inserire]",
+    "vat": "VAT IT[da inserire]",
+    "socialLabel": "Social",
     "backToTop": "Back to top"
   },
   "notFound": {

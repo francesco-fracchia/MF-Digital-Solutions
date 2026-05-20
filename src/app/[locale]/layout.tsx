@@ -72,13 +72,9 @@ export default async function LocaleLayout({
     areaServed: "IT",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Milano e Lodi",
+      addressLocality: "Milano",
       addressCountry: "IT",
     },
-    founder: [
-      { "@type": "Person", name: "Marco" },
-      { "@type": "Person", name: "Fra" },
-    ],
   };
 
   return (

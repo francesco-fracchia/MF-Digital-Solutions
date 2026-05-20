@@ -19,7 +19,6 @@ export function Portfolio() {
               {t("sectionLabel")}
             </p>
             <h2 className="mt-5 text-title font-medium">{t("title")}</h2>
-            <p className="mt-3 text-lead text-muted">{t("intro")}</p>
           </div>
         </Reveal>
       </div>

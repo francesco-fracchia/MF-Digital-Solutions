@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "MF Digital Solutions — Studio di sviluppo digitale",
-    "description": "Studio di sviluppo digitale a Milano e Lodi. Costruiamo siti, eCommerce e gestionali su misura. E gestiamo un eCommerce nostro."
+    "title": "MF Digital Solutions — Studio di sviluppo web",
+    "description": "Studio di sviluppo web. Siti, eCommerce e gestionali su misura per aziende che hanno bisogno di strumenti digitali fatti bene."
   },
   "common": {
     "skipToContent": "Vai al contenuto",
@@ -15,60 +15,57 @@
     "contact": "Contatti"
   },
   "hero": {
-    "eyebrow": "Studio di sviluppo digitale",
-    "titleLine1": "Sviluppiamo per i clienti.",
-    "titleLine2": "E gestiamo un eCommerce nostro.",
-    "subtitle": "Siti, eCommerce e gestionali su misura. Marco e Fra, da Milano e Lodi.",
+    "titleLine1": "Sviluppo web e applicazioni",
+    "titleLine2": "su misura.",
+    "subtitle": "Siti, eCommerce e gestionali per aziende che hanno bisogno di strumenti digitali fatti bene.",
     "ctaPrimary": "Vedi i lavori",
-    "ctaSecondary": "Scrivici",
+    "ctaSecondary": "Contatti",
     "marquee": [
       "Siti",
       "eCommerce",
       "Gestionali",
-      "Shopify",
       "Next.js",
-      "Integrazioni",
-      "Audit"
+      "Shopify",
+      "Performance",
+      "Accessibilità",
+      "Internazionalizzazione"
     ]
   },
   "services": {
     "sectionLabel": "Servizi",
-    "title": "Quello che facciamo",
-    "intro": "Quattro cose che facciamo bene. Niente altro.",
-    "deliverablesLabel": "Cosa consegniamo",
+    "title": "Aree di lavoro",
     "items": [
       {
-        "title": "Siti vetrina & landing page",
-        "body": "Per chi deve farsi trovare e raccontarsi bene. Next.js o Astro, headless CMS quando serve.",
-        "deliverables": ["Design e copy", "Sviluppo", "SEO tecnica", "Performance"]
+        "title": "Siti vetrina e landing page",
+        "body": "Siti istituzionali e pagine di lancio. Architettura editoriale, contenuti strutturati, ottimizzati per ricerca organica e performance.",
+        "deliverables": ["Next.js", "Astro", "CMS headless", "SEO tecnica"]
       },
       {
         "title": "eCommerce",
-        "body": "Negozi che vendono — non solo che esistono. Gestiamo FF Phone Lab su Shopify ed eBay.",
-        "deliverables": ["Shopify", "Theme custom", "Integrazioni", "Sync multicanale"]
+        "body": "Negozi online costruiti su Shopify o in architettura headless. Temi personalizzati, integrazioni multicanale, gestione catalogo.",
+        "deliverables": ["Shopify", "Liquid", "Integrazioni", "Sync multicanale"]
       },
       {
-        "title": "Gestionali & web app su misura",
-        "body": "Il software interno che fa girare la vostra operatività. Ordini, magazzino, resi, scheduling.",
-        "deliverables": ["Next.js", "Firebase/Turso", "Dashboard", "Automazioni"]
+        "title": "Gestionali e web app",
+        "body": "Applicazioni interne per gestire ordini, magazzino, clienti e processi operativi. Dashboard, automazioni, ruoli.",
+        "deliverables": ["Next.js", "Firebase", "Turso", "Dashboard"]
       },
       {
-        "title": "Consulenza & integrazioni",
-        "body": "Audit, scelte tecniche, integrazioni tra strumenti che già usate.",
-        "deliverables": ["Audit", "API", "Migrazioni", "Affiancamento"]
+        "title": "Consulenza tecnica",
+        "body": "Audit di codice e performance, scelte di architettura, integrazioni tra sistemi esistenti. Affiancamento a team interni.",
+        "deliverables": ["Audit", "Architettura", "API", "Migrazioni"]
       }
     ]
   },
   "about": {
-    "sectionLabel": "Chi siamo",
-    "title": "Operatori, non solo consulenti.",
-    "para1": "Siamo Marco e Fra, due sviluppatori. Base a Milano e Lodi. Costruiamo siti, eCommerce e gestionali su misura.",
-    "para2": "Gestiamo anche FF Phone Lab, il nostro eCommerce di smartphone. Sappiamo cosa serve per vendere online davvero. Per questo parliamo la lingua di chi lo fa ogni giorno."
+    "sectionLabel": "Lo studio",
+    "title": "Uno studio di sviluppo web con base a Milano.",
+    "para1": "MF Digital Solutions progetta e sviluppa siti, eCommerce e applicazioni gestionali su misura. Il lavoro parte dai requisiti del cliente e dai vincoli concreti di ogni progetto.",
+    "para2": "Ogni progetto è costruito su misura, con attenzione a performance, accessibilità e manutenibilità nel tempo. Lo stack tecnico è scelto in base alle esigenze del progetto."
   },
   "portfolio": {
     "sectionLabel": "Lavori",
     "title": "Lavori recenti",
-    "intro": "Due progetti, due mondi diversi. Stesso modo di lavorare.",
     "indexLabel": "Progetto",
     "labels": {
       "client": "Cliente",
@@ -80,8 +77,8 @@
   },
   "contact": {
     "sectionLabel": "Contatti",
-    "title": "Raccontaci cosa serve.",
-    "body": "Due righe sul progetto e i tempi. Rispondiamo entro due giorni lavorativi.",
+    "title": "Contatti",
+    "body": "Per richieste di preventivo o informazioni. Tempo di risposta medio: due giorni lavorativi.",
     "form": {
       "name": "Nome",
       "namePlaceholder": "Nome e cognome",
@@ -98,16 +95,16 @@
     "successBody": "Grazie. Ti rispondiamo a breve all'indirizzo che hai indicato.",
     "reset": "Invia un altro messaggio",
     "directLabel": "Oppure scrivici",
-    "email": "ciao@mfdigitalsolutions.it",
+    "email": "info@mfdigitalsolutions.it",
     "infoLabel": "In breve",
-    "location": "Milano e Lodi, Italia",
-    "mode": "Da remoto, su appuntamento in zona",
-    "availability": "Disponibili per nuovi progetti su richiesta"
+    "location": "Sede: Milano, Italia",
+    "mode": "Da remoto, su appuntamento"
   },
   "footer": {
-    "tagline": "Studio di sviluppo digitale · Marco & Fra",
+    "tagline": "Studio di sviluppo web",
     "rights": "Tutti i diritti riservati.",
-    "vat": "P.IVA IT[P.IVA da inserire]",
+    "vat": "P.IVA IT[da inserire]",
+    "socialLabel": "Social",
     "backToTop": "Torna su"
   },
   "notFound": {
